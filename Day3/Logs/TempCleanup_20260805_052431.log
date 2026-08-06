@@ -1,0 +1,8 @@
+2026-08-05 05:24:31 [INFO] Script started. Mode=Cleanup; DryRun=True; OlderThanDays=0
+2026-08-05 05:24:31 [INFO] Scanning: C:\Users\labuser\AppData\Local\Temp\2
+2026-08-05 05:24:31 [INFO] Scanning: C:\Windows\Temp
+2026-08-05 05:24:31 [INFO] DRYRUN delete candidate: C:\Users\labuser\AppData\Local\Temp\2\55dff93c-f921-4b2b-865c-65afb495a591.tmp | LastWriteTime=2026-08-05T03:45:30 | SizeBytes=0
+2026-08-05 05:24:31 [INFO] DRYRUN delete candidate: C:\Users\labuser\AppData\Local\Temp\2\exthost-0dea15.cpuprofile | LastWriteTime=2026-08-05T03:45:46 | SizeBytes=176303
+2026-08-05 05:24:31 [INFO] DRYRUN delete candidate: C:\Users\labuser\AppData\Local\Temp\2\gen_py\3.9\dicts.dat | LastWriteTime=2026-08-05T03:44:25 | SizeBytes=10
+2026-08-05 05:24:31 [INFO] DRYRUN delete candidate: C:\Users\labuser\AppData\Local\Temp\2\gen_py\3.9\__init__.py | LastWriteTime=2026-08-05T03:44:25 | SizeBytes=176
+2026-08-05 05:24:31 [INFO] Script completed (dry run). CandidateFiles=4

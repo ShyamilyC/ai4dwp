@@ -1,0 +1,1 @@
+Resolved. Cause: Performance degradation observed after Win11 upgrade (root-cause detail to confirm). Action: performed triage and post-upgrade performance remediation; system responsiveness improved. Preventive: add a standard post-Win11-upgrade performance check for similar cases. User confirmed working.

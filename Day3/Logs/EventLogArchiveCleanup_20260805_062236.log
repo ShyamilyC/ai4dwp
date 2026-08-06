@@ -1,0 +1,635 @@
+2026-08-05 06:22:36 [INFO] Script started. Mode=Cleanup; DryRun=True; OlderThanDays=3
+2026-08-05 06:22:40 [INFO] Evaluating log: Windows PowerShell
+2026-08-05 06:22:40 [INFO] Evaluation result: Log=Windows PowerShell; RecordCount=3375; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:40 [INFO] Evaluating log: Windows Azure
+2026-08-05 06:22:40 [INFO] Skipping empty log: Windows Azure
+2026-08-05 06:22:40 [INFO] Evaluating log: System
+2026-08-05 06:22:40 [INFO] Evaluation result: Log=System; RecordCount=2653; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:40 [INFO] Evaluating log: Key Management Service
+2026-08-05 06:22:40 [INFO] Skipping empty log: Key Management Service
+2026-08-05 06:22:40 [INFO] Evaluating log: Internet Explorer
+2026-08-05 06:22:40 [INFO] Skipping empty log: Internet Explorer
+2026-08-05 06:22:40 [INFO] Evaluating log: HardwareEvents
+2026-08-05 06:22:40 [INFO] Skipping empty log: HardwareEvents
+2026-08-05 06:22:40 [INFO] Evaluating log: Application
+2026-08-05 06:22:40 [INFO] Evaluation result: Log=Application; RecordCount=425; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:40 [INFO] Evaluating log: SMSApi
+2026-08-05 06:22:40 [INFO] Skipping empty log: SMSApi
+2026-08-05 06:22:40 [INFO] Evaluating log: Setup
+2026-08-05 06:22:40 [INFO] Skipping empty log: Setup
+2026-08-05 06:22:40 [INFO] Evaluating log: OpenSSH/Operational
+2026-08-05 06:22:40 [INFO] Skipping empty log: OpenSSH/Operational
+2026-08-05 06:22:40 [INFO] Evaluating log: OpenSSH/Admin
+2026-08-05 06:22:40 [INFO] Skipping empty log: OpenSSH/Admin
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-WindowsAzure-Status/Plugins
+2026-08-05 06:22:40 [INFO] Evaluation result: Log=Microsoft-WindowsAzure-Status/Plugins; RecordCount=397; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-WindowsAzure-Status/GuestAgent
+2026-08-05 06:22:40 [INFO] Evaluation result: Log=Microsoft-WindowsAzure-Status/GuestAgent; RecordCount=80; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-WindowsAzure-Diagnostics/Runtime
+2026-08-05 06:22:40 [INFO] Skipping empty log: Microsoft-WindowsAzure-Diagnostics/Runtime
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-WindowsAzure-Diagnostics/Heartbeat
+2026-08-05 06:22:40 [INFO] Evaluation result: Log=Microsoft-WindowsAzure-Diagnostics/Heartbeat; RecordCount=1836; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-WindowsAzure-Diagnostics/GuestAgent
+2026-08-05 06:22:40 [INFO] Evaluation result: Log=Microsoft-WindowsAzure-Diagnostics/GuestAgent; RecordCount=1572; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-WindowsAzure-Diagnostics/Bootstrapper
+2026-08-05 06:22:40 [INFO] Skipping empty log: Microsoft-WindowsAzure-Diagnostics/Bootstrapper
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-WPD-MTPClassDriver/Operational
+2026-08-05 06:22:40 [INFO] Skipping empty log: Microsoft-Windows-WPD-MTPClassDriver/Operational
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-WPD-CompositeClassDriver/Operational
+2026-08-05 06:22:40 [INFO] Skipping empty log: Microsoft-Windows-WPD-CompositeClassDriver/Operational
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-WPD-ClassInstaller/Operational
+2026-08-05 06:22:40 [INFO] Skipping empty log: Microsoft-Windows-WPD-ClassInstaller/Operational
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-Workplace Join/Admin
+2026-08-05 06:22:40 [INFO] Skipping empty log: Microsoft-Windows-Workplace Join/Admin
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-WMPNSS-Service/Operational
+2026-08-05 06:22:40 [INFO] Skipping empty log: Microsoft-Windows-WMPNSS-Service/Operational
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-WMI-Activity/Operational
+2026-08-05 06:22:40 [INFO] Evaluation result: Log=Microsoft-Windows-WMI-Activity/Operational; RecordCount=1336; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-Wired-AutoConfig/Operational
+2026-08-05 06:22:40 [INFO] Skipping empty log: Microsoft-Windows-Wired-AutoConfig/Operational
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-Winsock-WS2HELP/Operational
+2026-08-05 06:22:40 [INFO] Skipping empty log: Microsoft-Windows-Winsock-WS2HELP/Operational
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-WinRM/Operational
+2026-08-05 06:22:40 [INFO] Evaluation result: Log=Microsoft-Windows-WinRM/Operational; RecordCount=2444; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-Winlogon/Operational
+2026-08-05 06:22:40 [INFO] Evaluation result: Log=Microsoft-Windows-Winlogon/Operational; RecordCount=802; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-WinINet/Operational
+2026-08-05 06:22:40 [INFO] Skipping empty log: Microsoft-Windows-WinINet/Operational
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-WinINet-Config/ProxyConfigChanged
+2026-08-05 06:22:40 [INFO] Evaluation result: Log=Microsoft-Windows-WinINet-Config/ProxyConfigChanged; RecordCount=3; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-WinHttp/Operational
+2026-08-05 06:22:40 [INFO] Skipping empty log: Microsoft-Windows-WinHttp/Operational
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-WindowsUpdateClient/Operational
+2026-08-05 06:22:40 [INFO] Evaluation result: Log=Microsoft-Windows-WindowsUpdateClient/Operational; RecordCount=47; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-WindowsSystemAssessmentTool/Operational
+2026-08-05 06:22:40 [INFO] Skipping empty log: Microsoft-Windows-WindowsSystemAssessmentTool/Operational
+2026-08-05 06:22:40 [INFO] Evaluating log: Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-Windows Firewall With Advanced Security/FirewallDiagnostics
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-Windows Firewall With Advanced Security/Firewall
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-Windows Firewall With Advanced Security/Firewall; RecordCount=534; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-Windows Defender/WHC
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-Windows Defender/WHC
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-Windows Defender/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-Windows Defender/Operational; RecordCount=501; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-Win32k/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-Win32k/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-WFP/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-WFP/Operational; RecordCount=2; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-WER-PayloadHealth/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-WER-PayloadHealth/Operational; RecordCount=5; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-WebAuthN/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-WebAuthN/Operational; RecordCount=24; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-Wcmsvc/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-Wcmsvc/Operational; RecordCount=169; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-VPN/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-VPN/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-VPN-Client/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-VPN-Client/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-VolumeSnapshot-Driver/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-VolumeSnapshot-Driver/Operational; RecordCount=120; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-VHDMP-Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-VHDMP-Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-VerifyHardwareSecurity/Admin
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-VerifyHardwareSecurity/Admin
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-VDRVROOT/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-VDRVROOT/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-UserPnp/DeviceInstall
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-UserPnp/DeviceInstall; RecordCount=9; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-UserPnp/ActionCenter
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-UserPnp/ActionCenter
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-User-Loader/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-User-Loader/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-User Profile Service/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-User Profile Service/Operational; RecordCount=329; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-User Device Registration/Admin
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-User Device Registration/Admin; RecordCount=9; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-User Control Panel/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-User Control Panel/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-UniversalTelemetryClient/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-UniversalTelemetryClient/Operational; RecordCount=134; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-UAC/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-UAC/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TZUtil/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-TZUtil/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TZSync/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-TZSync/Operational; RecordCount=2; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TWinUI/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-TWinUI/Operational; RecordCount=8; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-Time-Service/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-Time-Service/Operational; RecordCount=225; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-Time-Service-PTP-Provider/PTP-Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-Time-Service-PTP-Provider/PTP-Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-SessionBroker-Client/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-TerminalServices-SessionBroker-Client/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-SessionBroker-Client/Admin
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-TerminalServices-SessionBroker-Client/Admin
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-ServerUSBDevices/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-TerminalServices-ServerUSBDevices/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-ServerUSBDevices/Admin
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-TerminalServices-ServerUSBDevices/Admin
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational; RecordCount=1355; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-RemoteConnectionManager/Admin
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-TerminalServices-RemoteConnectionManager/Admin; RecordCount=22; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-RDPClient/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-TerminalServices-RDPClient/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-Printers/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-TerminalServices-Printers/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-Printers/Admin
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-TerminalServices-Printers/Admin
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-PnPDevices/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-TerminalServices-PnPDevices/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-PnPDevices/Admin
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-TerminalServices-PnPDevices/Admin
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-LocalSessionManager/Operational
+2026-08-05 06:22:41 [INFO] Evaluation result: Log=Microsoft-Windows-TerminalServices-LocalSessionManager/Operational; RecordCount=219; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-LocalSessionManager/Admin
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-TerminalServices-LocalSessionManager/Admin
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-ClientUSBDevices/Operational
+2026-08-05 06:22:41 [INFO] Skipping empty log: Microsoft-Windows-TerminalServices-ClientUSBDevices/Operational
+2026-08-05 06:22:41 [INFO] Evaluating log: Microsoft-Windows-TerminalServices-ClientUSBDevices/Admin
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-TerminalServices-ClientUSBDevices/Admin
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-TCPIP/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-TCPIP/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-TaskScheduler/Maintenance
+2026-08-05 06:22:42 [INFO] Evaluation result: Log=Microsoft-Windows-TaskScheduler/Maintenance; RecordCount=25; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SystemSettingsThreshold/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-SystemSettingsThreshold/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SystemDataArchiver/Diagnostic
+2026-08-05 06:22:42 [WARN] Unable to query newest event for 'Microsoft-Windows-SystemDataArchiver/Diagnostic': The resource loader failed to find MUI file
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-Storsvc/Diagnostic
+2026-08-05 06:22:42 [INFO] Evaluation result: Log=Microsoft-Windows-Storsvc/Diagnostic; RecordCount=10; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-Store/Operational
+2026-08-05 06:22:42 [INFO] Evaluation result: Log=Microsoft-Windows-Store/Operational; RecordCount=344; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-StorageSpaces-SpaceManager/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-StorageSpaces-SpaceManager/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-StorageSpaces-SpaceManager/Diagnostic
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-StorageSpaces-SpaceManager/Diagnostic
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-StorageSpaces-Parser/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-StorageSpaces-Parser/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-StorageSpaces-Parser/Diagnostic
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-StorageSpaces-Parser/Diagnostic
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-StorageSpaces-ManagementAgent/WHC
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-StorageSpaces-ManagementAgent/WHC
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-StorageSpaces-Driver/Operational
+2026-08-05 06:22:42 [INFO] Evaluation result: Log=Microsoft-Windows-StorageSpaces-Driver/Operational; RecordCount=21; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-StorageSpaces-Driver/Diagnostic
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-StorageSpaces-Driver/Diagnostic
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-StorageSpaces-Api/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-StorageSpaces-Api/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-StorageSettings/Diagnostic
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-StorageSettings/Diagnostic
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-StorageManagement/Operational
+2026-08-05 06:22:42 [INFO] Evaluation result: Log=Microsoft-Windows-StorageManagement/Operational; RecordCount=11; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-StorageManagement-PartUtil/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-StorageManagement-PartUtil/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-Storage-Tiering/Admin
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-Storage-Tiering/Admin
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-Storage-ClassPnP/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-Storage-ClassPnP/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-StateRepository/Operational
+2026-08-05 06:22:42 [INFO] Evaluation result: Log=Microsoft-Windows-StateRepository/Operational; RecordCount=509; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SMBWitnessClient/Informational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-SMBWitnessClient/Informational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SMBWitnessClient/Admin
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-SMBWitnessClient/Admin
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SMBDirect/Admin
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-SMBDirect/Admin
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SmartCard-TPM-VCard-Module/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-SmartCard-TPM-VCard-Module/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SmartCard-TPM-VCard-Module/Admin
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-SmartCard-TPM-VCard-Module/Admin
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SmartCard-DeviceEnum/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-SmartCard-DeviceEnum/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SmartCard-Audit/Authentication
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-SmartCard-Audit/Authentication
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SilProvider/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-SilProvider/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational
+2026-08-05 06:22:42 [INFO] Evaluation result: Log=Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational; RecordCount=126; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-Shell-Core/Operational
+2026-08-05 06:22:42 [INFO] Evaluation result: Log=Microsoft-Windows-Shell-Core/Operational; RecordCount=1277; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-Shell-Core/LogonTasksChannel
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-Shell-Core/LogonTasksChannel
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-Shell-Core/AppDefaults
+2026-08-05 06:22:42 [INFO] Evaluation result: Log=Microsoft-Windows-Shell-Core/AppDefaults; RecordCount=725; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-Shell-Core/ActionCenter
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-Shell-Core/ActionCenter
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-Shell-ConnectedAccountState/ActionCenter
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-Shell-ConnectedAccountState/ActionCenter
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-ServerManager-MultiMachine/Operational
+2026-08-05 06:22:42 [INFO] Evaluation result: Log=Microsoft-Windows-ServerManager-MultiMachine/Operational; RecordCount=867; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-ServerManager-MultiMachine/Admin
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-ServerManager-MultiMachine/Admin
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-ServerManager-MgmtProvider/Operational
+2026-08-05 06:22:42 [INFO] Evaluation result: Log=Microsoft-Windows-ServerManager-MgmtProvider/Operational; RecordCount=559; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-ServerManager-DeploymentProvider/Operational
+2026-08-05 06:22:42 [INFO] Evaluation result: Log=Microsoft-Windows-ServerManager-DeploymentProvider/Operational; RecordCount=145; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-ServerManager-ConfigureSMRemoting/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-ServerManager-ConfigureSMRemoting/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SenseIR/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-SenseIR/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SENSE/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-SENSE/Operational
+2026-08-05 06:22:42 [INFO] Evaluating log: Microsoft-Windows-SecurityMitigationsBroker/Operational
+2026-08-05 06:22:42 [INFO] Skipping empty log: Microsoft-Windows-SecurityMitigationsBroker/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Security-UserConsentVerifier/Audit
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-Security-UserConsentVerifier/Audit
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Security-SPP-UX-Notifications/ActionCenter
+2026-08-05 06:22:43 [INFO] Evaluation result: Log=Microsoft-Windows-Security-SPP-UX-Notifications/ActionCenter; RecordCount=3; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Security-Netlogon/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-Security-Netlogon/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Security-Mitigations/UserMode
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-Security-Mitigations/UserMode
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Security-Mitigations/KernelMode
+2026-08-05 06:22:43 [INFO] Evaluation result: Log=Microsoft-Windows-Security-Mitigations/KernelMode; RecordCount=17; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Security-LessPrivilegedAppContainer/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-Security-LessPrivilegedAppContainer/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Security-EnterpriseData-FileRevocationManager/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-Security-EnterpriseData-FileRevocationManager/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Security-Audit-Configuration-Client/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-Security-Audit-Configuration-Client/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Security-Adminless/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-Security-Adminless/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-SearchUI/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-SearchUI/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-RestartManager/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-RestartManager/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Resource-Exhaustion-Resolver/Operational
+2026-08-05 06:22:43 [INFO] Evaluation result: Log=Microsoft-Windows-Resource-Exhaustion-Resolver/Operational; RecordCount=4; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Resource-Exhaustion-Detector/Operational
+2026-08-05 06:22:43 [INFO] Evaluation result: Log=Microsoft-Windows-Resource-Exhaustion-Detector/Operational; RecordCount=30; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-RemoteDesktopServices-SessionServices/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-RemoteDesktopServices-SessionServices/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational
+2026-08-05 06:22:43 [INFO] Evaluation result: Log=Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational; RecordCount=2050; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Admin
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Admin
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-RemoteApp and Desktop Connections/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-RemoteApp and Desktop Connections/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-RemoteApp and Desktop Connections/Admin
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-RemoteApp and Desktop Connections/Admin
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Regsvr32/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-Regsvr32/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-ReFS/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-ReFS/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-ReadyBoost/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-ReadyBoost/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PushNotification-Platform/Operational
+2026-08-05 06:22:43 [INFO] Evaluation result: Log=Microsoft-Windows-PushNotification-Platform/Operational; RecordCount=312; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PushNotification-Platform/Admin
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-PushNotification-Platform/Admin
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Program-Compatibility-Assistant/CompatAfterUpgrade
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-Program-Compatibility-Assistant/CompatAfterUpgrade
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PrintService/Admin
+2026-08-05 06:22:43 [INFO] Evaluation result: Log=Microsoft-Windows-PrintService/Admin; RecordCount=1; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PrintBRM/Admin
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-PrintBRM/Admin
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PowerShell/Operational
+2026-08-05 06:22:43 [INFO] Evaluation result: Log=Microsoft-Windows-PowerShell/Operational; RecordCount=1624; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PowerShell/Admin
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-PowerShell/Admin
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Policy/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-Policy/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PersistentMemory-ScmBus/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-PersistentMemory-ScmBus/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PersistentMemory-ScmBus/Certification
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-PersistentMemory-ScmBus/Certification
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PersistentMemory-PmemDisk/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-PersistentMemory-PmemDisk/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PersistentMemory-Nvdimm/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-PersistentMemory-Nvdimm/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PerceptionSensorDataService/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-PerceptionSensorDataService/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PerceptionRuntime/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-PerceptionRuntime/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-PCRPF/PCRPF
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-PCRPF/PCRPF
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Partition/Diagnostic
+2026-08-05 06:22:43 [INFO] Evaluation result: Log=Microsoft-Windows-Partition/Diagnostic; RecordCount=21; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-OOBE-Machine-DUI/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-OOBE-Machine-DUI/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-OfflineFiles/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-OfflineFiles/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-NTLM/Operational
+2026-08-05 06:22:43 [INFO] Skipping empty log: Microsoft-Windows-NTLM/Operational
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Ntfs/WHC
+2026-08-05 06:22:43 [INFO] Evaluation result: Log=Microsoft-Windows-Ntfs/WHC; RecordCount=12; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:43 [INFO] Evaluating log: Microsoft-Windows-Ntfs/Operational
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-Ntfs/Operational; RecordCount=190; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-NlaSvc/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-NlaSvc/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-NetworkProfile/Operational
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-NetworkProfile/Operational; RecordCount=63; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-NetworkLocationWizard/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-NetworkLocationWizard/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-NdisImPlatform/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-NdisImPlatform/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-NCSI/Operational
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-NCSI/Operational; RecordCount=9; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-MUI/Operational
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-MUI/Operational; RecordCount=12; Candidate=True; Reason=Newest event older than cutoff
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-MUI/Admin
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-MUI/Admin
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-MsLbfoProvider/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-MsLbfoProvider/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Mprddm/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Mprddm/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-MiStreamProvider/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-MiStreamProvider/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-MemoryDiagnostics-Results/Debug
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-MemoryDiagnostics-Results/Debug
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-ManagementTools-TaskManagerProvider/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-ManagementTools-TaskManagerProvider/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-ManagementTools-RegistryProvider/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-ManagementTools-RegistryProvider/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-LAPS/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-LAPS/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-LanguagePackSetup/Operational
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-LanguagePackSetup/Operational; RecordCount=4; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Known Folders API Service
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-Known Folders API Service; RecordCount=44; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-WHEA/Operational
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-Kernel-WHEA/Operational; RecordCount=50; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-WHEA/Errors
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Kernel-WHEA/Errors
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-WDI/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Kernel-WDI/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-StoreMgr/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Kernel-StoreMgr/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-Power/Thermal-Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Kernel-Power/Thermal-Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-PnP/Driver Watchdog
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Kernel-PnP/Driver Watchdog
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-PnP/Device Management
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-Kernel-PnP/Device Management; RecordCount=114; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-PnP/Configuration
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-Kernel-PnP/Configuration; RecordCount=143; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-IO/Operational
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-Kernel-IO/Operational; RecordCount=2300; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-EventTracing/Admin
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Kernel-EventTracing/Admin
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-Dump/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Kernel-Dump/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-CPU-Starvation/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Kernel-CPU-Starvation/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-Cache/Operational
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-Kernel-Cache/Operational; RecordCount=322; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-Boot/Operational
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-Kernel-Boot/Operational; RecordCount=60; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Kernel-ApphelpCache/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Kernel-ApphelpCache/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-KdsSvc/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-KdsSvc/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Iphlpsvc/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Iphlpsvc/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-International-RegionalOptionsControlPanel/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-International-RegionalOptionsControlPanel/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-IKE/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-IKE/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-IdCtrls/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-IdCtrls/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Hyper-V-Guest-Drivers/Admin
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-Hyper-V-Guest-Drivers/Admin; RecordCount=24; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-HomeGroup Control Panel/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-HomeGroup Control Panel/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-HelloForBusiness/Operational
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-HelloForBusiness/Operational; RecordCount=33; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-GenericRoaming/Admin
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-GenericRoaming/Admin
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Forwarding/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Forwarding/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-Folder Redirection/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-Folder Redirection/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-FMS/Operational
+2026-08-05 06:22:44 [INFO] Skipping empty log: Microsoft-Windows-FMS/Operational
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-FileShareShadowCopyProvider/Operational
+2026-08-05 06:22:44 [INFO] Evaluation result: Log=Microsoft-Windows-FileShareShadowCopyProvider/Operational; RecordCount=3; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:44 [INFO] Evaluating log: Microsoft-Windows-FileServices-ServerManager-EventProvider/Operational
+2026-08-05 06:22:45 [INFO] Evaluation result: Log=Microsoft-Windows-FileServices-ServerManager-EventProvider/Operational; RecordCount=3; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-FileServices-ServerManager-EventProvider/Admin
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-FileServices-ServerManager-EventProvider/Admin
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-FederationServices-Deployment/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-FederationServices-Deployment/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-FeatureConfiguration/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-FeatureConfiguration/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Fault-Tolerant-Heap/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-Fault-Tolerant-Heap/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-EventCollector/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-EventCollector/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-EnrollmentWebService/Admin
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-EnrollmentWebService/Admin
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-EnrollmentPolicyWebService/Admin
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-EnrollmentPolicyWebService/Admin
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-EnhancedStorage-EhStorClass/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-EnhancedStorage-EhStorClass/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-EDP-Audit-TCB/Admin
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-EDP-Audit-TCB/Admin
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-EDP-Audit-Regular/Admin
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-EDP-Audit-Regular/Admin
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-EDP-Application-Learning/Admin
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-EDP-Application-Learning/Admin
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-EapMethods-Ttls/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-EapMethods-Ttls/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-EapMethods-Sim/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-EapMethods-Sim/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-EapMethods-RasTls/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-EapMethods-RasTls/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-EapMethods-RasChap/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-EapMethods-RasChap/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-EapHost/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-EapHost/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DSC/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DSC/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DSC/Admin
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DSC/Admin
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DiskDiagnosticResolver/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DiskDiagnosticResolver/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DiskDiagnosticDataCollector/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DiskDiagnosticDataCollector/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DiskDiagnostic/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DiskDiagnostic/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DirectoryServices-Deployment/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DirectoryServices-Deployment/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Diagnostics-Networking/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-Diagnostics-Networking/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Diagnosis-Scripted/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-Diagnosis-Scripted/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Diagnosis-Scripted/Admin
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-Diagnosis-Scripted/Admin
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Diagnosis-Scheduled/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-Diagnosis-Scheduled/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Diagnosis-PLA/Operational
+2026-08-05 06:22:45 [INFO] Evaluation result: Log=Microsoft-Windows-Diagnosis-PLA/Operational; RecordCount=87; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Diagnosis-PCW/Operational
+2026-08-05 06:22:45 [INFO] Evaluation result: Log=Microsoft-Windows-Diagnosis-PCW/Operational; RecordCount=2080; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Diagnosis-DPS/Operational
+2026-08-05 06:22:45 [INFO] Evaluation result: Log=Microsoft-Windows-Diagnosis-DPS/Operational; RecordCount=293; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Dhcpv6-Client/Admin
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-Dhcpv6-Client/Admin
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Dhcp-Client/Admin
+2026-08-05 06:22:45 [INFO] Evaluation result: Log=Microsoft-Windows-Dhcp-Client/Admin; RecordCount=1; Candidate=True; Reason=Newest event older than cutoff
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DeviceUpdateAgent/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DeviceUpdateAgent/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DeviceSync/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DeviceSync/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DeviceSetupManager/Operational
+2026-08-05 06:22:45 [INFO] Evaluation result: Log=Microsoft-Windows-DeviceSetupManager/Operational; RecordCount=43; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DeviceSetupManager/Admin
+2026-08-05 06:22:45 [INFO] Evaluation result: Log=Microsoft-Windows-DeviceSetupManager/Admin; RecordCount=168; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Devices-Background/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-Devices-Background/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Autopilot
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Autopilot
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin
+2026-08-05 06:22:45 [INFO] Evaluation result: Log=Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin; RecordCount=1; Candidate=True; Reason=Newest event older than cutoff
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DeviceGuard/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DeviceGuard/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DateTimeControlPanel/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DateTimeControlPanel/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DataIntegrityScan/CrashRecovery
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DataIntegrityScan/CrashRecovery
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DataIntegrityScan/Admin
+2026-08-05 06:22:45 [INFO] Evaluation result: Log=Microsoft-Windows-DataIntegrityScan/Admin; RecordCount=6; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-DAL-Provider/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-DAL-Provider/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Crypto-DPAPI/Operational
+2026-08-05 06:22:45 [INFO] Evaluation result: Log=Microsoft-Windows-Crypto-DPAPI/Operational; RecordCount=87; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-Crypto-DPAPI/BackUpKeySvc
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-Crypto-DPAPI/BackUpKeySvc
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-CorruptedFileRecovery-Server/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-CorruptedFileRecovery-Server/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-CorruptedFileRecovery-Client/Operational
+2026-08-05 06:22:45 [INFO] Skipping empty log: Microsoft-Windows-CorruptedFileRecovery-Client/Operational
+2026-08-05 06:22:45 [INFO] Evaluating log: Microsoft-Windows-CoreApplication/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-CoreApplication/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Containers-Wcifs/Operational
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-Containers-Wcifs/Operational; RecordCount=12; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Containers-BindFlt/Operational
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-Containers-BindFlt/Operational; RecordCount=12; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Compat-Appraiser/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Compat-Appraiser/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-CodeIntegrity/Operational
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-CodeIntegrity/Operational; RecordCount=12; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-CloudStore/Operational
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-CloudStore/Operational; RecordCount=278; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Cleanmgr/Diagnostic
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Cleanmgr/Diagnostic
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-CertificateServicesClient-Lifecycle-User/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-CertificateServicesClient-Lifecycle-User/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-CertificateServicesClient-Lifecycle-System/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-CertificateServicesClient-Lifecycle-System/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-CertificateServices-Deployment/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-CertificateServices-Deployment/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-BranchCacheSMB/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-BranchCacheSMB/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Bluetooth-MTPEnum/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Bluetooth-MTPEnum/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Bluetooth-BthLEPrepairing/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Bluetooth-BthLEPrepairing/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Bits-Client/Operational
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-Bits-Client/Operational; RecordCount=165; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-BitLocker/BitLocker Management
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-BitLocker/BitLocker Management
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-BitLocker-DrivePreparationTool/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-BitLocker-DrivePreparationTool/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-BitLocker-DrivePreparationTool/Admin
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-BitLocker-DrivePreparationTool/Admin
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Biometrics/Operational
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-Biometrics/Operational; RecordCount=2; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-BestPractices/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-BestPractices/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Backup
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Backup
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-BackgroundTaskInfrastructure/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-BackgroundTaskInfrastructure/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Authentication User Interface/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Authentication User Interface/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Audio/PlaybackManager
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Audio/PlaybackManager
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Audio/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Audio/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Audio/CaptureMonitor
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Audio/CaptureMonitor
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-AppxPackaging/Operational
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-AppxPackaging/Operational; RecordCount=72; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-AppXDeploymentServer/Operational
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-AppXDeploymentServer/Operational; RecordCount=2312; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-AppXDeployment/Operational
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-AppXDeployment/Operational; RecordCount=26; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-AppReadiness/Operational
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-AppReadiness/Operational; RecordCount=18; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-AppReadiness/Admin
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-AppReadiness/Admin; RecordCount=261; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-AppModel-Runtime/Admin
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-AppModel-Runtime/Admin; RecordCount=339; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-AppLocker/Packaged app-Execution
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-AppLocker/Packaged app-Execution
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-AppLocker/Packaged app-Deployment
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-AppLocker/Packaged app-Deployment
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-AppLocker/MSI and Script
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-AppLocker/MSI and Script
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-AppLocker/EXE and DLL
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-AppLocker/EXE and DLL
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Application-Experience/Steps-Recorder
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Application-Experience/Steps-Recorder
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Application-Experience/Program-Telemetry
+2026-08-05 06:22:46 [INFO] Evaluation result: Log=Microsoft-Windows-Application-Experience/Program-Telemetry; RecordCount=5; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Application-Experience/Program-Inventory
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Application-Experience/Program-Inventory
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Application-Experience/Program-Compatibility-Troubleshooter
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Application-Experience/Program-Compatibility-Troubleshooter
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Application Server-Applications/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Application Server-Applications/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-Application Server-Applications/Admin
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-Application Server-Applications/Admin
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-ApplicabilityEngine/Operational
+2026-08-05 06:22:46 [INFO] Skipping empty log: Microsoft-Windows-ApplicabilityEngine/Operational
+2026-08-05 06:22:46 [INFO] Evaluating log: Microsoft-Windows-AppID/Operational
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-Windows-AppID/Operational
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-Windows-AppHost/Admin
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-Windows-AppHost/Admin
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-Windows-AllJoyn/Operational
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-Windows-AllJoyn/Operational
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-Windows-All-User-Install-Agent/Admin
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-Windows-All-User-Install-Agent/Admin
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-Windows-AAD/Operational
+2026-08-05 06:22:47 [INFO] Evaluation result: Log=Microsoft-Windows-AAD/Operational; RecordCount=22; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-User Experience Virtualization-SQM Uploader/Operational
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-User Experience Virtualization-SQM Uploader/Operational
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-User Experience Virtualization-IPC/Operational
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-User Experience Virtualization-IPC/Operational
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-User Experience Virtualization-App Agent/Operational
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-User Experience Virtualization-App Agent/Operational
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-User Experience Virtualization-Agent Driver/Operational
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-User Experience Virtualization-Agent Driver/Operational
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-System-Diagnostics-DiagnosticInvoker/Operational
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-System-Diagnostics-DiagnosticInvoker/Operational
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-ServerCore-ShellLauncher/Admin
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-ServerCore-ShellLauncher/Admin
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-Rdms-UI/Operational
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-Rdms-UI/Operational
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-Rdms-UI/Admin
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-Rdms-UI/Admin
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-Client-Licensing-Platform/Admin
+2026-08-05 06:22:47 [INFO] Evaluation result: Log=Microsoft-Client-Licensing-Platform/Admin; RecordCount=65; Candidate=False; Reason=Contains recent events
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-AppV-Client/Virtual Applications
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-AppV-Client/Virtual Applications
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-AppV-Client/Operational
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-AppV-Client/Operational
+2026-08-05 06:22:47 [INFO] Evaluating log: Microsoft-AppV-Client/Admin
+2026-08-05 06:22:47 [INFO] Skipping empty log: Microsoft-AppV-Client/Admin
+2026-08-05 06:22:47 [INFO] DRYRUN candidate: Microsoft-Windows-MUI/Operational | RecordsToDelete=12 | Newest=2026-07-11T18:07:39
+2026-08-05 06:22:47 [INFO] DRYRUN candidate: Microsoft-Windows-Dhcp-Client/Admin | RecordsToDelete=1 | Newest=2026-07-11T18:07:09
+2026-08-05 06:22:47 [INFO] DRYRUN candidate: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin | RecordsToDelete=1 | Newest=2026-07-11T18:08:11
+2026-08-05 06:22:47 [INFO] Dry run complete. CandidateLogs=3; TotalRecordsToDelete=14

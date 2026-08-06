@@ -1,0 +1,3 @@
+2026-08-05 05:50:30 [INFO] Script started. Mode=Rollback; DryRun=False; OlderThanDays=0
+2026-08-05 05:50:30 [WARN] No rollback manifest was found. Nothing to restore.
+2026-08-05 05:50:30 [INFO] Script completed (rollback mode).

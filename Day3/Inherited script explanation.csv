@@ -1,0 +1,12 @@
+Line,What it does,Reads or changes system parameter?,Risk
+1,"Gets computer system info from CIM/WMI (for example machine name and total RAM) and stores it in $c.","Reads system information only (no change).","Low. Could fail if CIM/WMI service has issues or permissions are restricted."
+2,"Gets free space on C: drive and stores just the Free value in $d.","Reads system information only (no change).","Low. Very safe read operation."
+3,"Gets all running processes, sorts by working set memory (largest first), keeps top 5, stores in $p.","Reads process/runtime information only (no change).","Low to Medium. On very busy systems, process enumeration/sorting can be a little heavy."
+4,"Reads latest 10 events from System log, filters to error level (Level 2), stores in $e.","Reads event log information only (no change).","Medium. Event messages can contain sensitive details; access may be denied for low-privileged users."
+5,"Starts query for user profiles and begins a filter block for stale profiles, storing results in $u.","Reads user profile metadata only (no change).","Low to Medium. Can reveal user/profile inventory details."
+6,"Completes filter: keeps non-special profiles not used in last 90 days.","Reads profile attributes only (no change).","Low to Medium. Same privacy/inventory exposure concern; no destructive action."
+7,"Prints computer name and total physical memory from $c to console.","No system change; writes output only.","Low. Could expose host details if output is shared."
+8,"Converts free bytes in $d to GB (rounded to 2 decimals) and prints result.","No system change; writes output only.","Low. Informational only."
+9,"Loops through top 5 processes in $p and prints process name and memory usage.","No system change; writes output only.","Low. Could expose running process names and memory usage."
+10,"Loops through filtered events in $e and prints event time and message text.","No system change; writes output only.","Medium. Event messages can include sensitive operational details."
+11,"If stale profile count is greater than zero, prints a summary count.","Reads variable data only; no system change.","Low. Informational only."

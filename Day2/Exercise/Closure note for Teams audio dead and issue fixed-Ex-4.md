@@ -1,0 +1,1 @@
+Resolved. Cause: Teams app audio stopped responding across 50 machines. Action: restarted Teams app and confirmed audio restored. Preventive: monitor for recurrence and update runbook to restart Teams as first-line fix. User confirmed working.
