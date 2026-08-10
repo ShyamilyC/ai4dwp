@@ -1,0 +1,12 @@
+az vm create --resource-group dwp-lab-rg --name dwp-p20-win --image MicrosoftWindowsDesktop:windows-11:win11-24h2-ent:latest --size Standard_B2ms --admin-username dwpadmin --admin-password 'DWPLab2024@Az' --location centralus --public-ip-sku Standard --os-disk-size-gb 128 --storage-sku StandardSSD_LRS --nsg-rule RDP --security-type TrustedLaunch --enable-secure-boot true --enable-vtpm true
+Consider upgrading security for your workloads using Azure Trusted Launch VMs. To know more about Trusted Launch, please visit https://aka.ms/TrustedLaunch.
+{
+  "fqdns": "",
+  "id": "/subscriptions/63fee90f-7f38-4604-8fbe-c05f7f0ad4a6/resourceGroups/dwp-lab-rg/providers/Microsoft.Compute/virtualMachines/dwp-p20-win",
+  "location": "centralus",
+  "macAddress": "70-A8-A5-6D-A8-68",
+  "powerState": "VM running",
+  "privateIpAddress": "10.0.0.4",
+  "publicIpAddress": "52.173.110.157",
+  "resourceGroup": "dwp-lab-rg"
+}
